@@ -8,7 +8,7 @@ resource "aws_acm_certificate" "project_19_cert" {
 
 # calling the hosted zone
 data "aws_route53_zone" "project_19_zone" {
-  name         = "praticelab.link"
+  name         = "practicelab.link"
   private_zone = false
 }
 
